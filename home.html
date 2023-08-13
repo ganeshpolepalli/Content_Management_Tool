@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Editor</h1>
+    </header>
+    <main>
+        <section id="text-editor">
+            <h2>Text Editor</h2>
+            <textarea id="blog-content" rows="10" cols="50"></textarea>
+        </section>
+        <section id="image-editor">
+            <h2>Image Editor</h2>
+            <input type="file" id="image-upload" accept="image/*">
+            <div id="image-preview"></div>
+        </section>
+        <section id="video-editor">
+            <h2>Video Editor</h2>
+            <input type="text" id="video-url" placeholder="Enter video URL">
+            <div id="video-preview"></div>
+        </section>
+    </main>
+    <footer>
+        <button id="publish-button">Publish</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
